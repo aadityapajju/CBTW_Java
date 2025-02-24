@@ -11,7 +11,7 @@ public class CurrencyConverter {
 		}
 	void printCurrencies() {
 		
-		System.out.println("$1 Appropriate values");
+		System.out.println("$"+ dollarVal);
 		int rupee = 63;
 
 		int dirham = 3; // UAE
@@ -26,7 +26,7 @@ public class CurrencyConverter {
 
 		int $australian = 2;
 		
-		System.out.println("Rupee = 63, dirham = 3,real = 3,chilean_peso = 595 ,mexican_peso = 18, _yen = 107, $australian = 2"); 
+		System.out.println("For $1 rupee = 63, dirham = 3,real = 3,chilean_peso = 595 ,mexican_peso = 18, _yen = 107, $australian = 2"); 
 		
 		
 	}

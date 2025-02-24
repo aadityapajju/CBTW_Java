@@ -1,8 +1,10 @@
 package com.CurrencyConverter;
 
 public class CurrencyConverter {
-	
+	String currencyName;
+	int currencyVal;
 	int currencyExchangeRates;
+	  // australian dollar
 	public static void main(String[] args) {
 		//Assignment 1 creating few variables and printing them
 		
@@ -10,8 +12,10 @@ public class CurrencyConverter {
 		c.printCurrencies();
 		}
 	void printCurrencies() {
+		currencyVal = 3;
 		
-		System.out.println("$1 Appropriate values");
+		int dollarVal =(currencyVal*90);
+		System.out.println("$"+ dollarVal);
 		int rupee = 63;
 
 		int dirham = 3; // UAE
@@ -26,7 +30,7 @@ public class CurrencyConverter {
 
 		int $australian = 2;
 		
-		System.out.println("Rupee = 63, dirham = 3,real = 3,chilean_peso = 595 ,mexican_peso = 18, _yen = 107, $australian = 2"); 
+		System.out.println(" Rupee to $"+ dollarVal);
 		
 		
 	}
