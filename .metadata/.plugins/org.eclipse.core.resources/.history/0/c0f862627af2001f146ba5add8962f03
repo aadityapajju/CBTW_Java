@@ -13,7 +13,6 @@ public class CurrencyConverter {
 		   int Rupee = 63;
 		   
 		   void printCurrencies() {
-			   System.out.println("For 1$ other appropriate currency names and their values: ");
 		       System.out.println("rupee: " + rupee);
 		       System.out.println("dirham: " + dirham);
 		       System.out.println("real: " + real);
